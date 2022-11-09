@@ -1,0 +1,14 @@
+div.container {
+  max-width: 955px;
+}
+
+.form-check-input:checked {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+@media all and (min-width: 300px) {
+  body {
+    padding: 90px 0px 90px 0px;
+  }
+}
