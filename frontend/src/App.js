@@ -13,18 +13,18 @@ import SandBox from './pages/SandBox'
 import './App.css'
 
 function App() {
+  //Hi Austin welcome home.
   return (
     <>
       <Router>
         <Header />
         <Container>
-          
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
             <Route path='/sandbox' element={<SandBox />} />
-            
+
             <Route
               path='/dashboard'
               element={
@@ -33,7 +33,6 @@ function App() {
                 </PrivateRoute>
               }
             />
-           
           </Routes>
         </Container>
         <Footer />
